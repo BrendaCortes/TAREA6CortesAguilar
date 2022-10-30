@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="validacion.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Valida Informacion</title>
+</head>
+<body>
+    
+    <form class="contenedorp" action="validacion">
+     <h1>Formulario Informacion Escolar</h1>
+      <div>
+        <label>Nombre:</label>
+        <input id="nombre" type="text" value="">
+      </div>
+      <br>
+       <div>
+        <label>Numero de control:</label>
+        <input id="control" type="text" value="">
+        <p id="m1"></p>
+      </div>
+
+      <div>
+        <label>Ingresa RFC:</label>
+        <input id="rfc" type="text" value="">
+        <p id="m2"></p>
+      </div>
+
+      <div>
+        <label>Numero telefonico:</label>
+        <input id="tel" type="number" value="">
+        <p id="m3"></p>
+      </div>
+
+      <div>
+        <label>Correo Institucional:</label>
+        <input id="correo" type="text" value="">
+        <p id="m4"></p>
+      </div>
+
+      <div>
+        <button type="button" onclick="validar()">Enviar</button>
+      </div>
+
+      <div>
+        <p id="mensaje"></p>
+      </div>
+    </form>
+
+</body>
+</html>

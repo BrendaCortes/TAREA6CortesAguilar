@@ -1,0 +1,21 @@
+
+body{
+    text-align:center;
+}
+
+
+/*pagina principal */
+*{
+    font-family: cursive;
+    color:black;
+
+}
+
+.contenedorp{
+    width:100%;
+	height:100px;
+    display: block;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+
